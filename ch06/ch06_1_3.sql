@@ -1,4 +1,4 @@
-/*6장 3과*/
+/*6장 1-3*/
 
 -- group by
 SELECT userID, amount FROM buytbl ORDER BY userID;

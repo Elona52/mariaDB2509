@@ -2,7 +2,7 @@ USE exdb;
 SHOW TABLES;
 
 SELECT * FROM orders;
-SELECT * FROM customers;
+ 
 
 -- inner join 테이블 2개
 SELECT o.OrderID, c.CustomerID, c.CustomerName 고객이름, o.OrderDate

@@ -1,10 +1,11 @@
 
-/* 06장 1과 */
+/* 06장 1-1 */
 
 USE employees;
 
 USE mysql;
 SELECT * FROM employees;
+SHOW TABLES;
 
 SELECT * FROM titles ;
 

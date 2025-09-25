@@ -1,4 +1,4 @@
-/* 6장 4과 */
+/* 6장 2-1 */
 
 -- insert
 USE sqldb;
@@ -9,6 +9,7 @@ INSERT INTO testtbl1(id,username) VALUES(2,'설현');
 
 INSERT INTO testtbl1(username,age,id) VALUES('초아',26,3);
 
+SELECT * FROM testtbl1;
 -- auto_increment
 USE sqldb;
 CREATE TABLE testtbl2
@@ -45,7 +46,7 @@ DROP TABLE testtbl4;
 
 USE sqldb;
 CREATE TABLE testtbl4(id INT, fname VARCHAR(50), lname VARCHAR(50));
-INSTR INTO testtbl4
+INSERT INTO testtbl4
 SELECT emp_no, first_name, last_name
 FROM employees.employees;
 
