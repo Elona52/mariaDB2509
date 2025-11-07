@@ -1,4 +1,4 @@
-
+shopdborders`member`ordersproduct`member``member`shopdbshopdbshopdbshop
 /* 06장 1-1 */
 
 USE employees;
